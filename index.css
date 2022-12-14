@@ -1,0 +1,100 @@
+.center_page {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.text_show{
+    padding: 0rem 2rem 2rem 0rem;
+}
+
+html body{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.footer {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.text_inputs{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.enter_text{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+}
+
+.time_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.countdownTime {
+    display: none;
+}
+
+.button_start {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button_start > button {
+    margin-top: 2rem;
+}
+
+.input_box {
+    height: 3rem;
+    width: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0rem 1rem;
+}
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    box-shadow: none;
+}
+
+.button_stop {
+    display: none;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media  screen and (max-width: 425px) {
+    .center_page {
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5rem;
+    }
+}
