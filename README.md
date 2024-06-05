@@ -1,1 +1,1 @@
-# A simple Stopwatch
+# A Simple Stopwatch
